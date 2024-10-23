@@ -1,0 +1,14 @@
+# Este é um arquivos de configuração do Apache, no qual pode-se realizar diversas configurações
+# https://httpd.apache.org/docs/2.4/mod/mod_rewrite.html
+
+# Bloqueia o acesso a pastas
+Options -indexes
+
+# Configuração de urls amigáveis
+RewriteBase /
+RewriteCond ${SCRIPT_FILENAME} !-f
+RewriteCond ${SCRIPT_FILENAME} !-d
+RewriteCond ${SCRIPT_FILENAME} !-l
+RewriteRule ^(.*)$ index.php/$1
+
+# Acessar link acima e dar uma estudada
