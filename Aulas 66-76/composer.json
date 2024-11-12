@@ -1,0 +1,27 @@
+{
+    "name": "isi/treinamentophp",
+    "description": "Treinamento PHP estrutura MVC",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        },
+        "files": [
+            "config.php",
+            "routes.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Nathan Albuquerque",
+            "email": "nathan.nra@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "pecee/simple-router": "dev-master",
+        "twig/twig": "4.x-dev"
+    }
+}
