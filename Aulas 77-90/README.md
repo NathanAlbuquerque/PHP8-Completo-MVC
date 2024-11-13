@@ -1,0 +1,7 @@
+- Busca ao banco de dados com formulário usando PHP puro;
+- Busca ao banco de dados com formulário usando JQuery com Ajax;
+- Iniciada a estrutura do CMS (Painel administrativo);
+- Cadastro de itens no banco de dados com dois métodos diferentes;
+- Edição dos itens no banco de dados;
+- Exclusão dos itens no banco de dados;
+- Melhora na classe de modelo.
